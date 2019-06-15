@@ -4,7 +4,7 @@
   }, 
   "inbounds": [
     {
-      "port": 10086, 
+      "port": 25564, 
       "listen": "127.0.0.1", 
       "tag": "vmess-in", 
       "protocol": "vmess", 
@@ -12,7 +12,7 @@
         "clients": [
           {
 	//注：UUID
-            "id": "UUID", 
+            "id": "3ef8dfca-f072-48f9-bc19-430550c7742a", 
             "alterId": 64
           }
         ]
@@ -21,7 +21,7 @@
         "network": "ws", 
         "wsSettings": {
 	//注：ws路径
-          "path": "/PATH/", 
+          "path": "/43f1/", 
           "headers": { }
         }
       }
